@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/lsc
+# catalog-date 2007-03-09 12:50:50 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-lsc
 Version:	20070309
 Release:	1
@@ -44,6 +50,7 @@ extensions for the Play-In/Play-Out approach (cf. the manual).
 %doc %{_texmfdistdir}/doc/latex/lsc/README
 %doc %{_texmfdistdir}/doc/latex/lsc/lsc.pdf
 %doc %{_texmfdistdir}/doc/latex/lsc/lsc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ extensions for the Play-In/Play-Out approach (cf. the manual).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
