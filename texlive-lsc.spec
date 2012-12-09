@@ -51,3 +51,17 @@ extensions for the Play-In/Play-Out approach (cf. the manual).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070309-2
++ Revision: 753461
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070309-1
++ Revision: 718883
+- texlive-lsc
+- texlive-lsc
+- texlive-lsc
+- texlive-lsc
+
