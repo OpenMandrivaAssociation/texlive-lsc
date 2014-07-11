@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-lsc
 Version:	20070309
-Release:	7
+Release:	8
 Summary:	Typesetting Live Sequence Charts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lsc
