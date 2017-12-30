@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-lsc
-Version:	20070309
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Typesetting Live Sequence Charts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lsc
