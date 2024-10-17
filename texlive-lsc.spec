@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Typesetting Live Sequence Charts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lsc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/lsc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lsc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lsc.doc.r%{version}.tar.xz
